@@ -1,0 +1,115 @@
+{
+  "site": {
+    "owner": "Abubakar Al-amin Birchi",
+    "title": "Abubakar Al-amin Birchi | Future Computer Engineer",
+    "email": "alaminbirchi@gmail.com",
+    "phone": "+234 8061315325",
+    "location": "Zaria, Kaduna State, Nigeria",
+    "lastUpdated": "2026-08-31"
+  },
+  "projects": [
+    {
+      "id": "prj-001",
+      "title": "Automated Irrigation & Soil Health Monitoring",
+      "date": "2025-11-10",
+      "category": "Mechatronics",
+      "description": "A mechatronics system that monitors soil conditions and automatically controls irrigation using sensors, an Arduino controller, a pump and closed-loop control logic.",
+      "image_url": "assets/images/smart-irrigation.png",
+      "tags": ["Arduino", "PID", "Mechatronics", "Sensors"]
+    },
+    {
+      "id": "prj-002",
+      "title": "Personal Portfolio Website",
+      "date": "2026-08-01",
+      "category": "Web Development",
+      "description": "A responsive multi-page portfolio built with semantic XHTML/HTML5 and pure CSS to present academic journey, skills, projects and professional goals.",
+      "image_url": "assets/images/portfolio-website.png",
+      "tags": ["HTML", "CSS", "Responsive Design"]
+    },
+    {
+      "id": "prj-003",
+      "title": "Fuzzy Logic for Intelligent Navigation - Smart Wheelchair",
+      "date": "2026-03-15",
+      "category": "Artificial Intelligence",
+      "description": "An intelligent navigation system that uses fuzzy logic and computer vision to help a smart wheelchair detect obstacles and navigate safely in real time.",
+      "image_url": "assets/images/smart-wheelchair.jpg",
+      "tags": ["Python", "Artificial Intelligence", "Computer Vision", "YOLO"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-001",
+      "title": "Web Development for Beginners",
+      "date": "2025-05-20",
+      "category": "Web Development",
+      "description": "Introductory certification covering core web development concepts including HTML, CSS and responsive design fundamentals.",
+      "image_url": "assets/images/cert-web-dev.png"
+    },
+    {
+      "id": "cert-002",
+      "title": "Huawei HCIA-AI V4.0 Certification",
+      "date": "2025-09-12",
+      "category": "Artificial Intelligence",
+      "description": "Professional certification covering artificial intelligence fundamentals, machine learning concepts and Huawei AI development frameworks.",
+      "image_url": "assets/images/cert-huawei-ai.png"
+    },
+    {
+      "id": "cert-003",
+      "title": "Generative AI for Beginners",
+      "date": "2026-01-18",
+      "category": "Artificial Intelligence",
+      "description": "Foundational certification introducing generative AI concepts, large language models and practical applications.",
+      "image_url": "assets/images/cert-genai.png"
+    }
+  ],
+  "skills": [
+    { "id": "skl-001", "title": "HTML", "category": "Web Development", "proficiency": 90, "description": "Semantic page structure and accessible web layouts." },
+    { "id": "skl-002", "title": "CSS", "category": "Web Development", "proficiency": 85, "description": "Responsive design, layouts, gradients and modern styling." },
+    { "id": "skl-003", "title": "JavaScript", "category": "Web Development", "proficiency": 70, "description": "Interactive web experiences and frontend programming." },
+    { "id": "skl-004", "title": "Python", "category": "Programming", "proficiency": 75, "description": "Programming, automation, data and AI experimentation." },
+    { "id": "skl-005", "title": "Artificial Intelligence", "category": "Artificial Intelligence", "proficiency": 70, "description": "Machine learning and computer vision concepts." },
+    { "id": "skl-006", "title": "Arduino & Embedded Systems", "category": "Engineering", "proficiency": 75, "description": "Microcontrollers, sensors, actuators and control projects." }
+  ],
+  "education": [
+    {
+      "id": "edu-001",
+      "title": "B.Eng. Computer Engineering",
+      "date": "2020-2026",
+      "category": "University",
+      "description": "Studying Computer Engineering with exposure to programming, computer systems, electronics, embedded systems, artificial intelligence, computer vision and engineering design.",
+      "institution": "Ahmadu Bello University, Zaria"
+    },
+    {
+      "id": "edu-002",
+      "title": "Industrial Training (SIWES)",
+      "date": "2024",
+      "category": "Industrial Training",
+      "description": "Gained practical exposure to professional work environments, technical operations and real-world problem solving.",
+      "institution": "Transmission Company of Nigeria (TCN Mando)"
+    },
+    {
+      "id": "edu-003",
+      "title": "Secondary School Leaving Certificate (WASSCE)",
+      "date": "2017",
+      "category": "Secondary School",
+      "description": "Completed secondary education and obtained WASSCE result.",
+      "institution": "E-Academy, Kaduna"
+    },
+    {
+      "id": "edu-004",
+      "title": "Primary School Leaving Certificate",
+      "date": "2011",
+      "category": "Primary School",
+      "description": "Completed primary education.",
+      "institution": "LEA Nursery and Primary School, Kawo, Kaduna"
+    }
+  ],
+  "hobbies": [
+    { "id": "hob-001", "title": "Technology", "category": "Interest", "description": "Exploring emerging technologies and learning how they can solve real problems." },
+    { "id": "hob-002", "title": "Programming", "category": "Interest", "description": "Building projects and improving my ability to think logically and solve problems." },
+    { "id": "hob-003", "title": "Learning", "category": "Interest", "description": "Taking courses, reading, researching and learning new technical skills." },
+    { "id": "hob-004", "title": "Innovation", "category": "Interest", "description": "Developing creative ideas and thinking about better ways to solve challenges." },
+    { "id": "hob-005", "title": "Research", "category": "Interest", "description": "Exploring artificial intelligence, engineering systems and new computing ideas." },
+    { "id": "hob-006", "title": "Entrepreneurship", "category": "Interest", "description": "Learning how technology can become useful products, services and businesses." }
+  ]
+}

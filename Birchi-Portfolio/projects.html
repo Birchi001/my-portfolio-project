@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Abubakar Al-amin Birchi</title>
+    <meta name="description" content="A collection of engineering, AI and web development projects by Abubakar Al-amin Birchi.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Automated Irrigation & Soil Health Monitoring",
+            "dateCreated": "2025-11-10",
+            "genre": "Mechatronics",
+            "description": "A mechatronics system that monitors soil conditions and automatically controls irrigation using sensors, Arduino, a pump and control logic.",
+            "image": "assets/images/smart-irrigation.png",
+            "creator": { "@type": "Person", "name": "Abubakar Al-amin Birchi" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Personal Portfolio Website",
+            "dateCreated": "2026-08-01",
+            "genre": "Web Development",
+            "description": "A responsive multi-page portfolio built with semantic XHTML/HTML5 and pure CSS.",
+            "image": "assets/images/portfolio-website.png",
+            "creator": { "@type": "Person", "name": "Abubakar Al-amin Birchi" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Fuzzy Logic for Intelligent Navigation - Smart Wheelchair",
+            "dateCreated": "2026-03-15",
+            "genre": "Artificial Intelligence",
+            "description": "An intelligent navigation system using fuzzy logic and computer vision to help a smart wheelchair navigate safely.",
+            "image": "assets/images/smart-wheelchair.jpg",
+            "creator": { "@type": "Person", "name": "Abubakar Al-amin Birchi" }
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container nav">
+        <a href="index.html" class="logo">BIR<span>CHI.</span></a>
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section class="page-hero">
+    <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h1>Projects</h1>
+        <p>A collection of engineering, AI and web development projects.</p>
+    </div>
+</section>
+
+<section class="section section-white">
+    <div class="container">
+        <div class="section-heading">
+            <p class="eyebrow">MY WORK</p>
+            <h2>Projects I Have Built &amp; Explored</h2>
+            <p>Click &ldquo;View Details&rdquo; on any project for a full description &mdash; shown in a CSS-only overlay, no JavaScript required.</p>
+        </div>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/images/smart-irrigation.png" alt="Automated Irrigation Project">
+                </div>
+                <div class="project-body">
+                    <h3>Automated Irrigation &amp; Soil Health Monitoring</h3>
+                    <p>
+                        A mechatronics system that monitors soil conditions and
+                        automatically controls irrigation using sensors, Arduino,
+                        a pump and control logic.
+                    </p>
+                    <div class="tags"><span>Arduino</span><span>PID</span><span>Mechatronics</span><span>Sensors</span></div>
+                    <a href="#modal-prj-1" class="btn btn-outline">View Details</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/images/portfolio-website.png" alt="Portfolio Website Project">
+                </div>
+                <div class="project-body">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive multi-page portfolio created to present my
+                        academic journey, skills, projects and professional goals.
+                    </p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive Design</span></div>
+                    <a href="#modal-prj-2" class="btn btn-outline">View Details</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/images/smart-wheelchair.jpg" alt="Smart Wheelchair Navigation Project">
+                </div>
+                <div class="project-body">
+                    <h3>Fuzzy Logic for Intelligent Navigation &ndash; Smart Wheelchair</h3>
+                    <p>
+                        An intelligent navigation system that uses fuzzy logic and
+                        computer vision to help a smart wheelchair detect obstacles
+                        and navigate safely in real time.
+                    </p>
+                    <div class="tags"><span>Python</span><span>Artificial Intelligence</span><span>Computer Vision</span><span>YOLO</span></div>
+                    <a href="#modal-prj-3" class="btn btn-outline">View Details</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- CSS-only modal overlays, triggered via the :target pseudo-class. No JavaScript involved. -->
+<div id="modal-prj-1" class="project-modal">
+    <div class="project-modal-content">
+        <a href="#" class="project-modal-close" aria-label="Close">&times;</a>
+        <img src="assets/images/smart-irrigation.png" alt="Automated Irrigation Project">
+        <h3>Automated Irrigation &amp; Soil Health Monitoring</h3>
+        <p class="eyebrow">Mechatronics &middot; November 2025</p>
+        <p>
+            This system continuously monitors soil moisture and environmental
+            conditions using a network of sensors connected to an Arduino
+            microcontroller. When soil conditions fall below a defined
+            threshold, the controller automatically activates a water pump
+            through closed-loop control logic, reducing water waste and
+            supporting healthier plant growth without manual intervention.
+        </p>
+        <div class="tags"><span>Arduino</span><span>PID</span><span>Mechatronics</span><span>Sensors</span></div>
+    </div>
+</div>
+
+<div id="modal-prj-2" class="project-modal">
+    <div class="project-modal-content">
+        <a href="#" class="project-modal-close" aria-label="Close">&times;</a>
+        <img src="assets/images/portfolio-website.png" alt="Portfolio Website Project">
+        <h3>Personal Portfolio Website</h3>
+        <p class="eyebrow">Web Development &middot; August 2026</p>
+        <p>
+            A fully responsive, multi-page personal portfolio built entirely
+            with semantic XHTML/HTML5 and pure CSS (Flexbox and Grid), with
+            no JavaScript or content management system. The site models its
+            content using a structured JSON data file and embeds Schema.org
+            JSON-LD metadata for search engine indexing.
+        </p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive Design</span><span>JSON</span></div>
+    </div>
+</div>
+
+<div id="modal-prj-3" class="project-modal">
+    <div class="project-modal-content">
+        <a href="#" class="project-modal-close" aria-label="Close">&times;</a>
+        <img src="assets/images/smart-wheelchair.jpg" alt="Smart Wheelchair Navigation Project">
+        <h3>Fuzzy Logic for Intelligent Navigation &ndash; Smart Wheelchair</h3>
+        <p class="eyebrow">Artificial Intelligence &middot; March 2026</p>
+        <p>
+            An intelligent navigation system designed for a smart wheelchair,
+            combining fuzzy logic control with real-time computer vision
+            (YOLO-based object detection) to identify obstacles and guide
+            safe movement through indoor environments.
+        </p>
+        <div class="tags"><span>Python</span><span>Artificial Intelligence</span><span>Computer Vision</span><span>YOLO</span></div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container footer-main">
+        <div><h3>Abubakar Al-amin Birchi</h3><p>Future Computer Engineer, Developer and Technology Enthusiast.</p></div>
+        <div class="footer-links"><h4>Quick Links</h4><a href="about.html">About</a><a href="skills.html">Skills</a><a href="cv.html">CV</a></div>
+        <div class="footer-links"><h4>Contact</h4><p>alaminbirchi@gmail.com</p><p>+234 806 131 5325</p><p>Zaria, Kaduna State, Nigeria</p></div>
+    </div>
+    <div class="copyright"><p>&copy; 2026 Abubakar Al-amin Birchi. All Rights Reserved.</p></div>
+</footer>
+
+</body>
+</html>
